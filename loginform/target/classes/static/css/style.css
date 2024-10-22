@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #000;
+    background: url('https://as2.ftcdn.net/v2/jpg/02/60/29/31/1000_F_260293174_RJI9HNb5U9LTdpIV1YbU3uMh2DeHqf68.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.form {
+    position: relative;
+    width: 350px;
+    min-height: 400px;
+    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    box-sizing: border-box;
+    z-index: 2;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+}
+
+.form h2 {
+    color: #00ff00;
+    margin: 0 0 40px;
+    padding: 0;
+    text-align: center;
+}
+
+.form .input-box {
+    position: relative;
+    margin: 20px 0;
+}
+
+.form .input-box input {
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #77ff77;
+    padding: 10px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    font-weight: bold;
+    color: #00ff00;
+    background: #000;
+}
+
+.form .input-box input:focus,
+.form .input-box input:valid {
+    border-bottom-color: #00ff00;
+}
+
+.form .input-box .fa {
+    position: absolute;
+    top: 8px;
+    left: 5px;
+    font-size: 18px;
+    color: #77ff77;
+}
+
+.form .input-box input[type="submit"] {
+    border: none;
+    cursor: pointer;
+    background-color: #00ff00;
+    color: #000; /* النص أسود */
+    font-weight: bold;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.form .input-box input[type="submit"]:hover {
+    background-color: #00cc00;
+}
+
+.form a {
+    text-decoration: none;
+    color: #77ff77;
+    margin-top: 20px;
+    font-weight: bold;
+    display: inline-block;
+    transition: 0.5s;
+    text-align: center;
+    width: 100%;
+}
+
+.form a:hover {
+    color: #00ff00;
+}
